@@ -53,12 +53,12 @@ footer {
 }
 
 header {
-  border-bottom: 2px solid silver;
+  border-bottom: 2px solid silver; */
   padding: 1%;
 }
 footer {
   padding: 1%;
-  border-top: 2px solid silver;
+  border-top: 2px solid silver; */
   margin-top: 10px;
   padding-bottom: 2%;
 }
@@ -67,7 +67,6 @@ footer img {
   float: left;
   margin-right: 10px;
 }
-
 #logo {
   font-size: 2em;
   font-family: Comic sans MS, sans-serif;
@@ -80,7 +79,7 @@ footer img {
 }
 input[type="text"].field {
   border-radius: 5px;
-  border-top: 2px solid silver;
+  border-top: 2px solid silver; */
   padding: 5px;
   margin-left: 20px;
 }
