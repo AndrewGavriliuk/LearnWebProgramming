@@ -86,7 +86,7 @@ input[type="text"].field {
 input[type="text"].field:focus {
   border: 2px solid rgb(255, 119, 119);
 }
-#page-wrap::after {
+#page-wrap:after {
   content: "";
   display: block;
 }
