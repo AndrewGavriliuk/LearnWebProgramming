@@ -53,13 +53,14 @@ footer {
 }
 
 header {
-  border-bottom: 2px solid silver; */
+  border-bottom: 2px solid silver;
   padding: 1%;
 }
 footer {
   padding: 1%;
-  border-top: 2px solid silver; */
+  border-top: 2px solid silver;
   margin-top: 10px;
+
   padding-bottom: 2%;
 }
 footer img {
@@ -79,18 +80,22 @@ footer img {
 }
 input[type="text"].field {
   border-radius: 5px;
-  border-top: 2px solid silver; */
+  border-top: 2px solid silver;
   padding: 5px;
   margin-left: 20px;
 }
 input[type="text"].field:focus {
   border: 2px solid rgb(255, 119, 119);
 }
-#page-wrap::after {
+#page-wrap:after {
   content: "";
   display: block;
 }
 footer,
-#page-wrap {
+#page-wrap:after {
   height: 10px;
+}
+#page-wrap {
+  min-height: 92%;
+  margin-bottom: -10px;
 }
