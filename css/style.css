@@ -53,12 +53,12 @@ footer {
 }
 
 header {
-  border-bottom: 2px solid silver; */
+  border-bottom: 2px solid silver;
   padding: 1%;
 }
 footer {
   padding: 1%;
-  border-top: 2px solid silver; */
+  border-top: 2px solid silver;
   margin-top: 10px;
   padding-bottom: 2%;
 }
@@ -79,7 +79,7 @@ footer img {
 }
 input[type="text"].field {
   border-radius: 5px;
-  border-top: 2px solid silver; */
+  border-top: 2px solid silver;
   padding: 5px;
   margin-left: 20px;
 }
