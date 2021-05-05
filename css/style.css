@@ -60,6 +60,7 @@ footer {
   padding: 1%;
   border-top: 2px solid silver;
   margin-top: 10px;
+
   padding-bottom: 2%;
 }
 footer img {
@@ -91,6 +92,10 @@ input[type="text"].field:focus {
   display: block;
 }
 footer,
-#page-wrap {
+#page-wrap:after {
   height: 10px;
+}
+#page-wrap {
+  min-height: 92%;
+  margin-bottom: -10px;
 }
